@@ -74,7 +74,7 @@ def all_supplies_in_holidays(holiday_hash)
       
       puts string
       
-      val.each do |ele|
+      holiday.each do |ele|
         puts ele
       end
     end
