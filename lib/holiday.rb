@@ -70,7 +70,7 @@ def all_supplies_in_holidays(holiday_hash)
       
       arr.each {|ele| ele.capitalize!}
       
-      string = "  " + arr.join(" ") + ":" + holiday_hash[season][holiday].join(", ")
+      string = "  " + arr.join(" ") + ": " + holiday_hash[season][holiday].join(", ")
       
       puts string
       
