@@ -72,7 +72,7 @@ def all_supplies_in_holidays(holiday_hash)
       
       string = arr.join(" ")
       
-      puts string + ":" 
+      puts string
       
       val.each do |ele|
         puts ele
