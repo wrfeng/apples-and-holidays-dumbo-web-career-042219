@@ -74,7 +74,7 @@ def all_supplies_in_holidays(holiday_hash)
       
       puts holiday
       
-      season[holiday].each do |supply|
+      holiday_hash[season][holiday].each do |supply|
         puts supply
       end
     end
