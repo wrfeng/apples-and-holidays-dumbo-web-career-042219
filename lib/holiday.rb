@@ -70,9 +70,9 @@ def all_supplies_in_holidays(holiday_hash)
       
       arr.each {|ele| ele.capitalize!}
       
-      string = arr.join(" ")
+      string = arr.join(" ") + ":"
       
-      print string + ":"
+      puts string
       
       holiday_hash[season][holiday].each do |supply|
         puts supply
